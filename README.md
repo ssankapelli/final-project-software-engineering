@@ -1,1 +1,82 @@
 # final-project-software-engineering
+# Wandering in the Woods
+
+## User’s Guide
+
+### Introduction
+Welcome to "Wandering in the Woods," an educational simulation/game designed for K-5 students. This program is aimed at helping students learn about computation, computational thinking, math concepts, and computer science. Whether you're a teacher guiding a class or a student exploring the game on your own, this guide will help you get started with installing and using the program.
+
+### Installation Guide
+
+#### System Requirements:
+- **Operating System**: Windows 10/11, macOS, or Linux
+- **Python**: Version 3.x
+- **Pygame Library**
+
+#### Step-by-Step Installation:
+
+1. **Install Python**:
+   - Download Python 3.x from [python.org](https://www.python.org/downloads/).
+   - Follow the installation instructions specific to your operating system.
+   - Ensure you check the box that says "Add Python to PATH" during installation.
+
+2. **Install Pygame**:
+   - Open a terminal or command prompt.
+   - Type the following command and press Enter:
+     ```
+     pip install pygame
+     ```
+
+3. **Download the Game Files**:
+   - Obtain the "Wandering in the Woods" game files from your teacher or download them from the provided link.
+
+4. **Run the Game**:
+   - We will provide a `.exe` file in a zip folder. Unzip the folder and run the game by double-clicking the `.exe` file.
+   - Alternatively, you can run the game using Python:
+     - Navigate to the folder where the game files are saved.
+     - Open a terminal or command prompt in that folder.
+     - Run the game by typing:
+       ```
+       python main.py
+       ```
+
+### Using the Program
+
+#### Main Menu:
+Upon launching the game, you’ll see the home screen with two options: **Start** and **Exit**.
+- **Start**: Begins the game.
+- **Exit**: Closes the program.
+
+#### Gameplay Overview:
+
+1. **Grades K-2**:
+   - The game presents a simple square grid with two characters.
+   - One character is controlled by the player using the keyboard, while the other moves randomly.
+   - The goal is to guide the characters to meet. Upon meeting, a celebratory screen appears, showing the number of moves taken.
+
+2. **Grades 3-5**:
+   - Students can set the grid size (which can be rectangular) and choose the number of characters (2, 3, or 4).
+   - Characters start at student-selected positions and move according to game rules.
+   - Statistics such as the longest run without meeting and the average run are displayed after each round.
+
+#### Game Controls:
+- **Arrow Keys**: Move the player-controlled character.
+- **Space Bar**: Pause/resume the game.
+- **Exit Button**: Exits the game and returns to the main menu.
+
+#### Additional Features:
+- Background music plays during the game.
+- Sound effects accompany each movement and meeting of characters.
+- The game can be reset to try different scenarios and experiments.
+
+### Troubleshooting
+- **Game Not Starting**: Ensure Python and Pygame are correctly installed.
+- **Slow Performance**: Close other applications to free up system resources.
+- **No Sound**: Check the volume settings on your device and ensure your sound drivers are up to date.
+
+### Contact Information
+For further assistance, please reach out to your teacher or consult the technical support resources provided by your school.
+
+---
+
+Enjoy exploring "Wandering in the Woods" and enhancing your computational thinking skills!
